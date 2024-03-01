@@ -11,3 +11,4 @@ HTTP 1.1
 HTTP 2.0
     2.0 was developed to overcome the drawbacks of version 1.0. In 2.0 version, one TCP connection is used for multiple request and responses. 
     since, several requests and responses are sent at once instead of one-by one, 2.0 version is significantly efficient and faster. further, instead of textual format, 2.0 version uses binary format. 
+-------
