@@ -1,0 +1,13 @@
+day 1  task 
+----------
+HTTP is nothing but hyper text transfer protocol which is used primarily by the user to send request to the server and get responses back to the user. 
+HTTP has several versions or stages of development. But the most prominent versions are 1.1 and 2.0 
+HTTP 1.1
+    In this version, while sending the reponse to the server and back to the user, a TCP connection is established between the server and the user. 
+    further, the connection is kept active by way of keeping one requests and responses at a time into one single connection. 
+    once the first response is received and the same is acknowledged, next response is sent by the server. Since all the requests are routed through one single connection (one TCP connection for one request and response) one-one, all the requests are blocked until the first response is received via the TCP. 
+    This results in significant time consumption and data lag for the user 
+
+HTTP 2.0
+    2.0 was developed to overcome the drawbacks of version 1.0. In 2.0 version, one TCP connection is used for multiple request and responses. 
+    since, several requests and responses are sent at once instead of one-by one, 2.0 version is significantly efficient and faster. further, instead of textual format, 2.0 version uses binary format. 
