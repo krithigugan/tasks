@@ -1,0 +1,10 @@
+Difference between document and window objects
+document object 
+    it is a webpage that is a loaded by the browser. further, by accessing the document object, 
+    we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page
+
+window object 
+    it is the top header of any html page. It represents a browser window or frame that displays the contents of the webpage. 
+    Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+
+    
